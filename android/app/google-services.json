@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "726292865677",
+    "project_id": "baseappflutter",
+    "storage_bucket": "baseappflutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726292865677:android:50642a86581c1e35e978c4",
+        "android_client_info": {
+          "package_name": "edu.unbosque.sabina.appejemplo.appejemplo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726292865677-68a4kuj74dqcr97lt8b91rtaok3dl5kh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGf-f0qLxPcz4_wgNqzrkGLE94EYu1oJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726292865677-68a4kuj74dqcr97lt8b91rtaok3dl5kh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
