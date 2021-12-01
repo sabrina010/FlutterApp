@@ -5,13 +5,16 @@ import 'package:flutter/material.dart';
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  static const String _title = 'Flutter Code Sample';
-
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      title: _title,
-      home: MyStatefulWidget(),
+    return MaterialApp(
+      title: 'App Universidad El Bosque',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.indigo,
+        brightness: Brightness.dark,
+      ),
+      home: const MyStatefulWidget(),
     );
   }
 }
@@ -26,8 +29,8 @@ class MyStatefulWidget extends StatefulWidget {
 class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   int _selectedIndex = 0;
   final screens = [
-    Business(),
-    Products(),
+    const Business(),
+    const Products(),
     const Center(child: Text('Listado de categorias'))
   ];
 
