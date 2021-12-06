@@ -1,4 +1,5 @@
 import 'package:appejemplo/src/pages/business.dart';
+import 'package:appejemplo/src/pages/clients.dart';
 import 'package:appejemplo/src/pages/products.dart';
 import 'package:flutter/material.dart';
 
@@ -31,7 +32,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   final screens = [
     const Business(),
     const Products(),
-    const Center(child: Text('Listado de categorias'))
+    const Clients()
   ];
 
   void _onItemTapped(int index) {
@@ -56,7 +57,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.category),
-            label: 'Category',
+            label: 'Clientes',
           ),
         ],
         selectedItemColor: Colors.amber[800],
